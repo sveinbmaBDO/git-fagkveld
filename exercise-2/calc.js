@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
   var updateCalculation = function() {
     var result = calculate(number1Field, number2Field, operationField);
 
-
     if (!Number.isNaN(result)) {
       resultField.innerText = result;
     }
